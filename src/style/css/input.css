@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bars {
+    @apply w-[30px] h-[2px] my-2 block bg-white;
+}
+
+.display-none {
+    @apply hidden;
+}
+/* 
+.hamburger-active > span:nth-child(1) {
+    @app}ly rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+} */
+
+
+#dark-toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-3;
+}
+
+
