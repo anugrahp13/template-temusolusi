@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './components/**/*.{html,js}',
     './pages/**/*.{html,js}',
-    './index.html','template-portfolio.html','template-blog.html','template-bisnis.html','kategori.html','tutorial.html',
+    './index.html','template-portfolio.html','template-blog.html','template-bisnis.html','kategori.html','tutorial.html','artikel.html',
   ],
   darkMode: 'class',
   theme: {
@@ -22,7 +22,7 @@ module.exports = {
         '2xl' : '1320px'
       },
       fontFamily: {
-        poppins : ['Poppins', 'sans-serif']
+        poppins : ['Poppins', 'sans-serif'] 
       },
     },
   },
